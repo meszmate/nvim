@@ -104,11 +104,17 @@ return {
       local capabilities = require('blink.cmp').get_lsp_capabilities()
       local servers = {
         gopls = {},
+        goimports = {},
         pyright = {},
         rust_analyzer = {},
-        eslint = {},
+        rustfmt = {},
         tailwindcss = {},
         ts_ls = {},
+        emmet_language_server = {},
+        elixirls = {},
+        eslint = {},
+        prettier = {},
+        astro = {},
         lua_ls = {
           settings = {
             Lua = {
@@ -138,4 +144,3 @@ return {
     end,
   },
 }
-
