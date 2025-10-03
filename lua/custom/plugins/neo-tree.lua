@@ -12,15 +12,6 @@ return {
   lazy = false,
   keys = {
     { '<leader>e', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
-  },
-  opts = {
-    filesystem = {
-      window = {
-        mappings = {
-          ['<leader>d'] = 'close_window',
-        },
-      },
-    },
+    { '<leader>ve', ':Neotree close<CR>', desc = 'NeoTree close', silent = true },
   },
 }
-

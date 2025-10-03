@@ -1,5 +1,3 @@
--- lua/custom/keymaps.lua
-
 -- Clear highlights on search
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
@@ -15,5 +13,3 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to right window'
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to upper window' })
 
--- vim-be-good keymap
-vim.keymap.set('n', '<leader>vg', '<cmd>VimBeGood<CR>', { desc = '[V]imBe[G]ood Exercises' })
