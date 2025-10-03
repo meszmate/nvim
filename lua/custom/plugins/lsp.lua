@@ -114,7 +114,17 @@ return {
         elixirls = {},
         eslint = {},
         prettier = {},
-        astro = {},
+        astro = {
+          settings = {
+            astro = {
+              documentLinks = true,
+              typescript = {
+                enable = true,
+              },
+            },
+          },
+        },
+        cssls = {},
         lua_ls = {
           settings = {
             Lua = {
@@ -141,6 +151,10 @@ return {
           end,
         },
       }
+    end,
+    opts = function(_, opts)
+      opts.formatters_by_ft = opts.formatters_by_ft or {}
+      opts.formatters_by_ft.astro = { 'prettier' }
     end,
   },
 }

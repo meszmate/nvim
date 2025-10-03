@@ -12,6 +12,6 @@ return {
   lazy = false,
   keys = {
     { '<leader>e', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
-    { '<leader>ve', ':Neotree close<CR>', desc = 'NeoTree close', silent = true },
+    { '<leader>vd', ':Neotree close<CR>', desc = 'NeoTree close', silent = true },
   },
 }

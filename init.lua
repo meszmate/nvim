@@ -17,7 +17,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- Load custom configurations
 require 'custom.options'
 require 'custom.keymaps'
 require 'custom.autocmds'
