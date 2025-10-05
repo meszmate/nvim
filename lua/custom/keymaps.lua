@@ -18,4 +18,4 @@ vim.keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { noremap = tr
 
 -- Save Changes
 vim.keymap.set('n', '<leader>w', ':update<CR>', { desc = 'Save file (update)' })
-vim.keymap.set('n', '<leader>W', ':upall<CR>', { desc = 'Save all modified buffers', silent = true })
+vim.keymap.set('n', '<leader>W', ':wa<CR>', { desc = 'Save all files', silent = true })
