@@ -15,3 +15,7 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to upper window'
 
 -- Telescope
 vim.keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', { noremap = true, silent = true })
+
+-- Save Changes
+vim.keymap.set('n', '<leader>w', ':update<CR>', { desc = 'Save file (update)' })
+vim.keymap.set('n', '<leader>W', ':upall<CR>', { desc = 'Save all modified buffers', silent = true })
