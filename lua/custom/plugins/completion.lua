@@ -28,7 +28,6 @@ return {
 
       appearance = {
         use_nvim_cmp_as_default = true,
-        show_label_details = true,
         nerd_font_variant = 'mono',
       },
 
@@ -36,4 +35,3 @@ return {
     },
   },
 }
-
